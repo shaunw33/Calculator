@@ -1,0 +1,45 @@
+<!-- Andrew Wilkerson, Project 1, CIS 425, 3pm -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="script.js"></script>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Calculator</h1>
+    <table class="calculator">
+        <tr>
+            <td colspan="3"> <input class="display-box" type="text" id="result"/> </td>
+            <td> <input class="button" type="button" value="C" onclick="clearScreen()" /> </td>
+        </tr>
+        <tr>
+            <td> <input class="button" type="button" value="7" onclick="press('7')" /> </td>
+            <td> <input class="button" type="button" value="8" onclick="press('8')" /> </td>
+            <td> <input class="button" type="button" value="9" onclick="press('9')" /> </td>
+            <td> <input class="button" type="button" value="/" onclick="press('/')" /> </td>
+        </tr>
+        <tr>
+            <td> <input class="button" type="button" value="4" onclick="press('4')" /> </td>
+            <td> <input class="button" type="button" value="5" onclick="press('5')" /> </td>
+            <td> <input class="button" type="button" value="6" onclick="press('6')" /> </td>
+            <td> <input class="button" type="button" value="*" onclick="press('*')" /> </td>
+        </tr>
+        <tr>
+            <td> <input class="button" type="button" value="1" onclick="press('1')" /> </td>
+            <td> <input class="button" type="button" value="2" onclick="press('2')" /> </td>
+            <td> <input class="button" type="button" value="3" onclick="press('3')" /> </td>
+            <td> <input class="button" type="button" value="-" onclick="press('-')" /> </td>
+        </tr>
+        <tr>
+            <td> <input class="button" type="button" value="0" onclick="press('0')" /> </td>
+            <td> <input class="button" type="button" value="." onclick="press('.')" /> </td>
+            <td> <input class="button" type="button" value="=" onclick="calculate()" /> </td>
+            <td> <input class="button" type="button" value="+" onclick="press('+')" /> </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
