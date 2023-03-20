@@ -1,4 +1,4 @@
-// Andrew Wilkerson, Project 1, CIS 425, 3pm
+// Shaun Wilkerson, Project 1, CIS 425, 3pm
 let memory = [];
 let number1 = "";
 let number2 = "";
